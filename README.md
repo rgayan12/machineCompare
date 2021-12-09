@@ -2,12 +2,19 @@
 
 
 ## Installation & Usage
-- `Git Clone  -` 
+- `Git Clone  - https://github.com/rgayan12/LYNKY.git` 
 - `composer install`
 - `npm install`
 - Rename .env.example to .env
 - Create a database and provide credentials in the .env
-- `php artisan migrate` - This should migrate all the tables to your new DB 
+- `DB_HOST=127.0.0.1
+  DB_PORT=3306
+  DB_DATABASE=laravel
+  DB_USERNAME=root
+  DB_PASSWORD=`
+- `php artisan migrate` - This should migrate all the tables to your new DB
+- `php artisan key:generate` - This might be helpful if any errors 
+- `npm run dev` - Compile all assets
 - `php artisan serve` 
 
 Any Issues please contact 
